@@ -1,25 +1,31 @@
+import { image } from "framer-motion/client";
 import SlideIn from "./SlideIn";
 
 export default function Portfolio() {
   const projects = [
     {
-      title: "Ecommerce Store",
-      link: "https://your-ecommerce-demo.com",
+      title: "E-commerce Store",
+      link: "https://pagatts.vercel.app/",
+      image: "/Images/pagatts.png",
     },
     {
-      title: "Portfolio Website",
-      link: "https://your-portfolio-demo.com",
+      title: "Ranking and Voting System",
+      link: "https://teswacompetition.vercel.app/",
+      image: "/Images/teswa.png",
     },
     {
-      title: "UI Landing Page",
-      link: "https://your-landing-demo.com",
+      title: "Fullstack E-commerce Store",
+      link: "https://my-landing-demo.com",
+      image: "/Images/adeola store.png",
     },
   ];
 
   return (
-    <section className="w-full px-10 md:px-20 py-20 bg-gray-50">
+    <section className=" font-[poppins] w-full px-10 md:px-20 py-20 bg-gray-50">
       <SlideIn>
-        <h2 className="text-4xl font-bold text-center mb-10">My Work</h2>
+        <h2 className="text-4xl font-bold text-center mb-10 text-black">
+          My Work
+        </h2>
       </SlideIn>
 
       <div className="grid md:grid-cols-3 gap-10">
@@ -30,9 +36,16 @@ export default function Portfolio() {
               target="_blank"
               className="block p-6 bg-white shadow rounded-xl hover:scale-105 transition"
             >
-              <h3 className="text-2xl font-semibold">{p.title}</h3>
-              <p className="text-gray-600 mt-3">Click to view project →</p>
+              <h3 className="text-2xl font-semibold text-cyan-600">
+                {p.title}
+              </h3>
+              <p className="text-gray-600 mt-3 font-bold">
+                Click to view project →
+              </p>
             </a>
+            <div>
+              <img src={p.image} alt="" />
+            </div>
           </SlideIn>
         ))}
       </div>

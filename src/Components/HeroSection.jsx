@@ -1,29 +1,32 @@
 import SlideIn from "./SlideIn";
-import profile from "/Images/gif.gif";
+import profile from "/Images/gif3.gif";
 
 export default function HeroSection() {
   return (
-    <section className="w-full flex flex-col md:flex-row items-center justify-between px-10 md:px-36 py-20">
+    <section className="font-[poppins] w-full flex flex-col md:flex-row items-center justify-between px-10 md:px-36 py-20">
       <SlideIn>
         <div className="max-w-xl">
-          <h1 className="text-6xl font-bold leading-tight">
-            Hello, I am a{" "}
-            <span className="text-indigo-600">Fullstack Developer</span>
+          <h1 className="text-2xl font-bold leading-tight text-cyan-600">
+            Hello, I am
           </h1>
+          <h1 className="text-[#36454F] text-6xl font-bold">Adeola Isaiah,</h1>
+          <span className="text-cyan-600 text-6xl font-extrabold">
+            Fullstack Developer
+          </span>
 
-          <p className="mt-6 text-lg text-gray-700">
+          <p className="mt-6 text-lg text-gray-700 font-bold italic">
             I build modern, reliable, and beautiful web applications.
           </p>
 
           <div className="mt-8 flex gap-6">
             <a href="/portfolio">
-              <button className="px-8 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-700">
+              <button className="px-8 py-3 bg-cyan-600 text-white rounded-lg shadow hover:bg-cyan-700">
                 Portfolio
               </button>
             </a>
 
-            <a href="/cv.pdf" download>
-              <button className="px-8 py-3 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50">
+            <a href="/Files/Adeola Omotoyinbo CV copy.docx" download>
+              <button className="px-8 py-3 border border-cyan-600 text-cyan-600 rounded-lg hover:bg-cyan-50">
                 Download CV
               </button>
             </a>
