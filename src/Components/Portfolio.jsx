@@ -5,7 +5,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: "E-commerce Store",
-      link: "https://pagatts.vercel.app/",
+      link: "",
       image: "/Images/pagatts.png",
     },
     {
