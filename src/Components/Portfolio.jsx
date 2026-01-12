@@ -24,7 +24,7 @@ export default function Portfolio() {
     <section className=" font-[poppins] w-full px-10 md:px-20 py-20 bg-gray-50">
       <SlideIn>
         <h2 className="text-4xl font-bold text-center mb-10 text-black">
-          My Work
+          Some of my Works
         </h2>
       </SlideIn>
 
