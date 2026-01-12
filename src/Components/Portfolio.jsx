@@ -4,19 +4,20 @@ import SlideIn from "./SlideIn";
 export default function Portfolio() {
   const projects = [
     {
-      title: "E-commerce Store",
-      link: "",
-      image: "/Images/pagatts.png",
+      title: "Fullstack E-commerce Store",
+      link: "https://fullstack-frontend-zeta-five.vercel.app/",
+      image: "/Images/adeola store.png",
     },
+
     {
       title: "Ranking and Voting System",
       link: "https://teswacompetition.vercel.app/",
       image: "/Images/teswa.png",
     },
     {
-      title: "Fullstack E-commerce Store",
-      link: "https://fullstack-frontend-zeta-five.vercel.app/",
-      image: "/Images/adeola store.png",
+      title: "E-commerce Store",
+      link: "",
+      image: "/Images/pagatts.png",
     },
   ];
 
