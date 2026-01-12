@@ -15,7 +15,7 @@ export default function Portfolio() {
     },
     {
       title: "Fullstack E-commerce Store",
-      link: "https://my-landing-demo.com",
+      link: "https://fullstack-frontend-zeta-five.vercel.app/",
       image: "/Images/adeola store.png",
     },
   ];
