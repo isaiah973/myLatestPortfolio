@@ -25,7 +25,7 @@ export default function HeroSection() {
               </button>
             </a>
 
-            <a href="/Files/Adeola Omotoyinbo CV copy.docx" download>
+            <a href="/Files/Adeola Omotoyinbo CV copy (2).pdf" download>
               <button className="px-8 py-3 border border-cyan-600 text-cyan-600 rounded-lg hover:bg-cyan-50">
                 Download CV
               </button>
